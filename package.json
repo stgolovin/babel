@@ -1,0 +1,31 @@
+{
+  "name": "babel_package",
+  "version": "1.0.0",
+  "description": "for babel test use",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stgolovin/babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "stgolovin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stgolovin/babel/issues"
+  },
+  "homepage": "https://github.com/stgolovin/babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2"
+  },
+  "dependencies": {
+    "core-js": "^3.33.0"
+  }
+}
